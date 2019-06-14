@@ -294,7 +294,7 @@ input.addEventListener("keyup", function(event) {
                         <b>
                             <?php
                             // get whoami and hostname                             
-                            echo (rtrim(shell_exec(whoami)).'@'.shell_exec(hostname)); 
+                            echo (rtrim(shell_exec('whoami')).'@'.shell_exec('hostname')); 
                             ?>:
                         </b>
                     </label>

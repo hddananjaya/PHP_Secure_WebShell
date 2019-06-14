@@ -343,7 +343,7 @@ input.addEventListener("keyup", function(event) {
             <div class="w3-row w3-margin">
             <form method="POST">
                     <div class="w3-col l6">
-                            <b><input type="text" id="cmd" class="w3-text-white w3-black cmdInput" name="passwd" autofocus></b>                            
+                            <b><input type="password" id="cmd" class="w3-text-white w3-black cmdInput" name="passwd" autofocus></b>                            
                     </div>
                     <div class="w3-col l6">
                         <input type="submit" id="submitBut" value="Submit" style="width:100%">         
